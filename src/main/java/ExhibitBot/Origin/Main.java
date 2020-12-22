@@ -36,7 +36,7 @@ public class Main {
         // Disable compression (not recommended)
         builder.setCompression(Compression.NONE);
         // Set activity (like "playing Something")
-        builder.setActivity(Activity.watching("brad"));
+        builder.setActivity(Activity.watching("Brad ¯\_(ツ)_/¯"));
 
         builder = registerCommands(builder);
         builder = registerGuildVoiceEvents(builder);
